@@ -1,0 +1,260 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#nav {
+    box-shadow: 0px 3px 10px 0px;
+}
+
+/*--------------------------------------------------------------*/
+/*--------------------------320px-------------------------------*/
+
+@media all and (min-width: 320px) {
+
+.nav-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 1em;
+    border: 0.2em darkgray solid;
+    border-radius: 1em;
+    box-shadow: 0px 10px 20px 5px;
+}
+
+
+
+h1, h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.btn {
+    width: 35%;
+    padding: 0.5em;
+    border: 0.1em solid black;
+    border-radius: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn:focus {
+    border: 0.2em solid darkgray;
+    box-shadow: 0px 0px 2px 1px;
+}
+
+}
+/*----------------------------End-------------------------------*/
+/*--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------*/
+/*---------------------------560px------------------------------*/
+
+@media all and (min-width: 560px) {
+
+h1 {
+    font-size: 1.5em;
+}
+
+.nav-links li a {
+    font-size: 1.2em;
+}
+
+#container {
+    width: 50%;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+.btn {
+    font-size: 1.1em;
+}
+
+}
+
+/*----------------------------FIN-------------------------------*/
+/*--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+
+@media all and (min-width: 768px) {
+
+h1 {
+    font-size: 1.6em;
+}
+
+.nav-links li a {
+    font-size: 1.3em;
+}
+
+#container {
+    width: 45%;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+}
+
+/*----------------------------FIN-------------------------------*/
+/*--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+/*---------------------------1024px-----------------------------*/
+
+@media all and (min-width: 1024px) {
+
+    h1 {
+        font-size: 1.7em;
+    }
+    
+    #nav {
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+    }
+
+    .nav-links li a {
+        font-size: 1.4em;
+    }
+    
+    main {
+        height: 75vh;
+    }
+
+    #container {
+        width: 50%;
+        padding: 2em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+        margin-bottom: 1em;
+    }
+    
+    .btn {
+        font-size: 1.2em;
+    }
+
+}
+
+/*-----------------------------FIN------------------------------*/
+/*--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+/*---------------------------1366px-----------------------------*/
+
+@media all and (min-width: 1366px) {
+
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    #nav {
+        padding-top: 1.4em;
+        padding-bottom: 1.4em;
+    }
+
+    .nav-links li a {
+        font-size: 1.5em;
+    }
+    
+    #container {
+        width: 40%;
+        padding: 2.5em;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+    }
+    
+    .btn {
+        font-size: 1.3em;
+    }
+
+}
+
+@media all and (min-width: 1440px) {
+
+    h1 {
+        font-size: 1.9em;
+    }
+    
+    .nav-links li a {
+        font-size: 1.6em;
+    }
+    
+    #container {
+        width: 45%;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    .btn {
+        font-size: 1.4em;
+    }
+
+}
